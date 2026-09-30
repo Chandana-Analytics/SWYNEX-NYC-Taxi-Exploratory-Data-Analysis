@@ -150,3 +150,23 @@ SWYNEX-NYC-Taxi-Exploratory-Data-Analysis/
 │   └── 02_Analysis_Notes.md
 │
 └── README.md
+
+## Dataset Sample
+
+The `02_Data` folder contains a 10,000-row sample of the cleaned dataset for reference.
+
+The complete cleaned dataset contains 3,724,777 records and was analyzed in Snowflake.
+
+The 10,000-row file is only a sample and does not represent the complete dataset.
+
+## Outcome
+
+This analysis helped me understand the main patterns in the NYC taxi data, including trip distance and duration, demand by time and weekday, payment distribution, high-activity locations and unusual long-duration records.
+
+The results were summarized through SQL analysis, Excel charts and documented findings.
+
+## Internship
+
+**SWYNEX Technologies - Data Analytics Internship**
+
+**Task 2: Exploratory Data Analysis**
