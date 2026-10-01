@@ -1,8 +1,8 @@
-\# Exploratory Data Analysis — Results \& Insights
+# Exploratory Data Analysis — Results \& Insights
 
 
 
-\## Dataset Overview
+## Dataset Overview
 
 
 
@@ -10,37 +10,37 @@ The exploratory analysis was performed on the cleaned January 2026 NYC Yellow Ta
 
 
 
-\- Cleaned records: 3,724,777
+- Cleaned records: 3,724,777
 
-\- Columns: 20
+- Columns: 20
 
-\- Analysis tool: Snowflake SQL
+- Analysis tool: Snowflake SQL
 
-\- Analysis period for time-based analysis: January 2026
+- Analysis period for time-based analysis: January 2026
 
-\- Source: NYC TLC Yellow Taxi Trip Records
-
-
-
-\---
+- Source: NYC TLC Yellow Taxi Trip Records
 
 
 
-\## 1. Overall Trip Statistics
+---
 
 
 
-\### Trip Distance
+## 1. Overall Trip Statistics
 
 
 
-\- Minimum trip distance: 0 miles
+### Trip Distance
 
-\- Maximum trip distance: 295.99 miles
 
-\- Average trip distance: 3.37 miles
 
-\- Median trip distance: 1.81 miles
+- Minimum trip distance: 0 miles
+
+- Maximum trip distance: 295.99 miles
+
+- Average trip distance: 3.37 miles
+
+- Median trip distance: 1.81 miles
 
 
 
@@ -48,17 +48,17 @@ The average distance is higher than the median, indicating that a smaller number
 
 
 
-\### Trip Duration
+### Trip Duration
 
 
 
-\- Minimum duration: 0 minutes
+- Minimum duration: 0 minutes
 
-\- Maximum duration: 7,508 minutes
+- Maximum duration: 7,508 minutes
 
-\- Average duration: 17.19 minutes
+- Average duration: 17.19 minutes
 
-\- Median duration: 13 minutes
+- Median duration: 13 minutes
 
 
 
@@ -66,17 +66,17 @@ The average duration is higher than the median, showing that longer-duration tri
 
 
 
-\### Fare and Total Amount
+### Fare and Total Amount
 
 
 
-\- Average fare amount: 20.80
+- Average fare amount: 20.80
 
-\- Median fare amount: 15.60
+- Median fare amount: 15.60
 
-\- Average total amount: 29.18
+- Average total amount: 29.18
 
-\- Median total amount: 23.05
+- Median total amount: 23.05
 
 
 
@@ -84,11 +84,11 @@ Both fare and total amount have averages above their medians, indicating a right
 
 
 
-\---
+---
 
 
 
-\## 2. Trip Distance Distribution
+## 2. Trip Distance Distribution
 
 
 
@@ -110,19 +110,19 @@ Both fare and total amount have averages above their medians, indicating a right
 
 
 
-\### Insight
+### Insight
 
 
 
-Short trips make up a large share of the dataset. Approximately \*\*69.1% of trips are 3 miles or less\*\*, while the median trip distance is 1.81 miles.
+Short trips make up a large share of the dataset. Approximately **69.1% of trips are 3 miles or less**, while the median trip distance is 1.81 miles.
 
 
 
-\---
+---
 
 
 
-\## 3. Trip Duration Distribution
+## 3. Trip Duration Distribution
 
 
 
@@ -144,23 +144,23 @@ Short trips make up a large share of the dataset. Approximately \*\*69.1% of tri
 
 
 
-\### Insight
+### Insight
 
 
 
-Most trips are relatively short in duration. Approximately \*\*88.59% of trips are 30 minutes or less\*\*, with the 6–15 minute range containing the largest number of trips.
+Most trips are relatively short in duration. Approximately **88.59% of trips are 30 minutes or less**, with the 6–15 minute range containing the largest number of trips.
 
 
 
-\---
+---
 
 
 
-\## 4. Time-Based Demand Analysis
+## 4. Time-Based Demand Analysis
 
 
 
-\### Hourly Demand
+### Hourly Demand
 
 
 
@@ -168,21 +168,21 @@ Pickup demand was analyzed by hour for January 2026.
 
 
 
-\- Lowest demand: 4 AM — 28,672 trips
+- Lowest demand: 4 AM — 28,672 trips
 
-\- Highest demand: 6 PM — 265,569 trips
-
-
-
-\### Insight
+- Highest demand: 6 PM — 265,569 trips
 
 
 
-Taxi demand varies substantially throughout the day. Demand is lowest during the early morning hours and increases through the day, reaching its highest level at approximately \*\*6 PM\*\* before declining later in the evening.
+### Insight
 
 
 
-\### Weekday Demand
+Taxi demand varies substantially throughout the day. Demand is lowest during the early morning hours and increases through the day, reaching its highest level at approximately **6 PM** before declining later in the evening.
+
+
+
+### Weekday Demand
 
 
 
@@ -210,11 +210,11 @@ Average trips per day by weekday:
 
 
 
-\### Insight
+### Insight
 
 
 
-Daily demand varies across the week. Saturday had the highest average number of trips per day at \*\*134,427\*\*, while Sunday had the lowest at \*\*93,409\*\*.
+Daily demand varies across the week. Saturday had the highest average number of trips per day at **134,427**, while Sunday had the lowest at **93,409**.
 
 
 
@@ -222,11 +222,11 @@ Average daily trips were used instead of only total weekday counts to account fo
 
 
 
-\---
+---
 
 
 
-\## 5. Payment Type Analysis
+## 5. Payment Type Analysis
 
 
 
@@ -246,11 +246,11 @@ Average daily trips were used instead of only total weekday counts to account fo
 
 
 
-\### Insight
+### Insight
 
 
 
-The trip distribution is concentrated in payment types \*\*1 and 0\*\*, which together account for \*\*89.61% of all cleaned trips\*\*.
+The trip distribution is concentrated in payment types **1 and 0**, which together account for **89.61% of all cleaned trips**.
 
 
 
@@ -258,15 +258,15 @@ Payment type codes are reported as codes here rather than assigning business mea
 
 
 
-\---
+---
 
 
 
-\## 6. Location Analysis
+## 6. Location Analysis
 
 
 
-\### Top Pickup Zones
+### Top Pickup Zones
 
 
 
@@ -296,7 +296,7 @@ Payment type codes are reported as codes here rather than assigning business mea
 
 
 
-\### Top Drop-off Zones
+### Top Drop-off Zones
 
 
 
@@ -326,19 +326,19 @@ Payment type codes are reported as codes here rather than assigning business mea
 
 
 
-\### Insight
+### Insight
 
 
 
-Trip activity is geographically concentrated in several high-volume Manhattan zones. \*\*Upper East Side South\*\* recorded the highest number of pickups, while \*\*Upper East Side North\*\* recorded the highest number of drop-offs.
+Trip activity is geographically concentrated in several high-volume Manhattan zones. **Upper East Side South** recorded the highest number of pickups, while **Upper East Side North** recorded the highest number of drop-offs.
 
 
 
-\---
+---
 
 
 
-\## 7. Route Analysis
+## 7. Route Analysis
 
 
 
@@ -366,11 +366,11 @@ These results show that several high-volume routes are concentrated around Manha
 
 
 
-\---
+---
 
 
 
-\## 8. Anomaly Analysis
+## 8. Anomaly Analysis
 
 
 
@@ -378,19 +378,19 @@ Trips with durations above 300 minutes were reviewed as potential anomalies.
 
 
 
-\- Trips above 300 minutes: 1,432
+- Trips above 300 minutes: 1,432
 
-\- Zero-distance trips among them: 167
+- Zero-distance trips among them: 167
 
-\- Positive-distance trips: 1,265
+- Positive-distance trips: 1,265
 
-\- Average distance: 4.42 miles
+- Average distance: 4.42 miles
 
-\- Median distance: 1.64 miles
+- Median distance: 1.64 miles
 
 
 
-\### Insight
+### Insight
 
 
 
@@ -398,7 +398,7 @@ A small group of trips has unusually long recorded durations. Some of these reco
 
 
 
-These records were \*\*not automatically removed during Task 2\*\*, because the purpose of EDA is to identify and describe unusual patterns rather than assume that every unusual record is incorrect.
+These records were **not automatically removed during Task 2**, because the purpose of EDA is to identify and describe unusual patterns rather than assume that every unusual record is incorrect.
 
 
 
@@ -406,43 +406,43 @@ The anomaly analysis therefore treats these records as observations requiring fu
 
 
 
-\---
+---
 
-\# Key Findings
-
-
-
-1\. Most taxi trips are short. About 69.1% of trips are 3 miles or less, and the median trip distance is 1.81 miles.
+# Key Findings
 
 
 
-2\. Most trips are also short in duration. About 88.59% of trips are completed within 30 minutes, with a median duration of 13 minutes.
+1. Most taxi trips are short. About 69.1% of trips are 3 miles or less, and the median trip distance is 1.81 miles.
 
 
 
-3\. Taxi demand changes significantly throughout the day. The lowest pickup volume was at 4 AM with 28,672 trips, while 6 PM had the highest with 265,569 trips.
+2. Most trips are also short in duration. About 88.59% of trips are completed within 30 minutes, with a median duration of 13 minutes.
 
 
 
-4\. Demand also changes by weekday. Saturday had the highest average daily trip volume, while Sunday had the lowest.
+3. Taxi demand changes significantly throughout the day. The lowest pickup volume was at 4 AM with 28,672 trips, while 6 PM had the highest with 265,569 trips.
 
 
 
-5\. Most trips fall under payment types 1 and 0, which together account for 89.61% of cleaned trips.
+4. Demand also changes by weekday. Saturday had the highest average daily trip volume, while Sunday had the lowest.
 
 
 
-6\. A few locations account for a large share of pickup and drop-off activity. Upper East Side South had the highest pickup count, while Upper East Side North had the highest drop-off count.
+5. Most trips fall under payment types 1 and 0, which together account for 89.61% of cleaned trips.
 
 
 
-7\. There are some unusual long-duration trips. 1,432 trips lasted more than 300 minutes, including 167 trips with zero recorded distance. These were kept as anomalies rather than automatically treated as errors.
-
-\---
+6. A few locations account for a large share of pickup and drop-off activity. Upper East Side South had the highest pickup count, while Upper East Side North had the highest drop-off count.
 
 
 
-\## Analysis Approach
+7. There are some unusual long-duration trips. 1,432 trips lasted more than 300 minutes, including 167 trips with zero recorded distance. These were kept as anomalies rather than automatically treated as errors.
+
+---
+
+
+
+## Analysis Approach
 
 
 
@@ -450,19 +450,19 @@ The analysis focused on:
 
 
 
-\- Overall descriptive statistics
+- Overall descriptive statistics
 
-\- Trip distance and duration distributions
+- Trip distance and duration distributions
 
-\- Time-based demand patterns
+- Time-based demand patterns
 
-\- Payment type distribution
+- Payment type distribution
 
-\- Pickup and drop-off locations
+- Pickup and drop-off locations
 
-\- Common routes
+- Common routes
 
-\- Anomaly identification
+- Anomaly identification
 
 
 

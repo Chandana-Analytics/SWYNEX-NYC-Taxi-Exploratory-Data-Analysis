@@ -1,8 +1,8 @@
-\# EDA Approach
+# EDA Approach
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,21 +14,21 @@ The analysis focused on understanding important statistics, trip patterns, time-
 
 
 
-\## Dataset Used
+## Dataset Used
 
 
 
-\- Dataset: NYC Yellow Taxi Trip Records
+- Dataset: NYC Yellow Taxi Trip Records
 
-\- Period: January 2026
+- Period: January 2026
 
-\- Cleaned records: 3,724,777
+- Cleaned records: 3,724,777
 
-\- Columns: 20
+- Columns: 20
 
-\- Analysis tool: Snowflake SQL
+- Analysis tool: Snowflake SQL
 
-\- Visualization tool: Excel
+- Visualization tool: Excel
 
 
 
@@ -36,7 +36,7 @@ The cleaned dataset was prepared during Task 1.
 
 
 
-\## Analysis Areas
+## Analysis Areas
 
 
 
@@ -44,7 +44,7 @@ The exploratory analysis was performed in the following areas:
 
 
 
-\### 1. Overall Statistics
+### 1. Overall Statistics
 
 
 
@@ -52,27 +52,27 @@ Calculated:
 
 
 
-\- Total number of trips
+- Total number of trips
 
-\- Minimum trip distance
+- Minimum trip distance
 
-\- Maximum trip distance
+- Maximum trip distance
 
-\- Average trip distance
+- Average trip distance
 
-\- Median trip distance
+- Median trip distance
 
-\- Minimum trip duration
+- Minimum trip duration
 
-\- Maximum trip duration
+- Maximum trip duration
 
-\- Average trip duration
+- Average trip duration
 
-\- Median trip duration
+- Median trip duration
 
-\- Fare amount statistics
+- Fare amount statistics
 
-\- Total amount statistics
+- Total amount statistics
 
 
 
@@ -80,7 +80,7 @@ Average and median values were compared to understand typical trip characteristi
 
 
 
-\### 2. Trip Analysis
+### 2. Trip Analysis
 
 
 
@@ -88,9 +88,9 @@ Analyzed the distribution of:
 
 
 
-\- Trip distance
+- Trip distance
 
-\- Trip duration
+- Trip duration
 
 
 
@@ -98,7 +98,7 @@ Trips were grouped into ranges to understand the most common trip lengths and du
 
 
 
-\### 3. Time Analysis
+### 3. Time Analysis
 
 
 
@@ -106,11 +106,11 @@ Analyzed taxi demand based on:
 
 
 
-\- Pickup date
+- Pickup date
 
-\- Day of the week
+- Day of the week
 
-\- Pickup hour
+- Pickup hour
 
 
 
@@ -118,7 +118,7 @@ For weekday analysis, average trips per day were calculated to make the comparis
 
 
 
-\### 4. Payment Analysis
+### 4. Payment Analysis
 
 
 
@@ -126,17 +126,17 @@ Analyzed:
 
 
 
-\- Number of trips by payment type
+- Number of trips by payment type
 
-\- Average fare amount by payment type
+- Average fare amount by payment type
 
-\- Average total amount by payment type
+- Average total amount by payment type
 
-\- Trip share by payment type
+- Trip share by payment type
 
 
 
-\### 5. Location Analysis
+### 5. Location Analysis
 
 
 
@@ -148,15 +148,15 @@ The analysis covered:
 
 
 
-\- Top pickup zones
+- Top pickup zones
 
-\- Top drop-off zones
+- Top drop-off zones
 
-\- Top pickup and drop-off routes
+- Top pickup and drop-off routes
 
 
 
-\### 6. Anomaly Analysis
+### 6. Anomaly Analysis
 
 
 
@@ -168,15 +168,15 @@ These records were reviewed using:
 
 
 
-\- Trip duration
+- Trip duration
 
-\- Trip distance
+- Trip distance
 
-\- Fare amount
+- Fare amount
 
-\- Total amount
+- Total amount
 
-\- Payment type
+- Payment type
 
 
 
@@ -184,7 +184,7 @@ Unusual records were not automatically removed because an unusual value does not
 
 
 
-\## Visualization Approach
+## Visualization Approach
 
 
 
@@ -192,21 +192,21 @@ Six charts were created in Excel to communicate the main patterns identified dur
 
 
 
-1\. Trip Distance Distribution
+1. Trip Distance Distribution
 
-2\. Trip Duration Distribution
+2. Trip Duration Distribution
 
-3\. Trips by Pickup Hour
+3. Trips by Pickup Hour
 
-4\. Average Trips per Day by Weekday
+4. Average Trips per Day by Weekday
 
-5\. Payment Type Distribution
+5. Payment Type Distribution
 
-6\. Top 10 Pickup Zones
+6. Top 10 Pickup Zones
 
 
 
-\## Analysis Workflow
+## Analysis Workflow
 
 
 
@@ -214,27 +214,27 @@ The analysis followed this workflow:
 
 
 
-1\. Start with the cleaned dataset from Task 1.
+1. Start with the cleaned dataset from Task 1.
 
-2\. Calculate overall statistics.
+2. Calculate overall statistics.
 
-3\. Analyze trip distance and duration distributions.
+3. Analyze trip distance and duration distributions.
 
-4\. Analyze demand by date, weekday and pickup hour.
+4. Analyze demand by date, weekday and pickup hour.
 
-5\. Analyze payment-type distribution and average amounts.
+5. Analyze payment-type distribution and average amounts.
 
-6\. Analyze pickup zones, drop-off zones and routes.
+6. Analyze pickup zones, drop-off zones and routes.
 
-7\. Investigate unusual long-duration records.
+7. Investigate unusual long-duration records.
 
-8\. Create charts for the main patterns.
+8. Create charts for the main patterns.
 
-9\. Summarize useful findings and observations.
+9. Summarize useful findings and observations.
 
 
 
-\## Data Scope
+## Data Scope
 
 
 

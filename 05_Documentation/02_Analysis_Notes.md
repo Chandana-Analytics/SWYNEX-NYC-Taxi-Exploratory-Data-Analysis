@@ -1,8 +1,8 @@
-\# Analysis Notes
+# Analysis Notes
 
 
 
-\## Trip Distance
+## Trip Distance
 
 
 
@@ -18,7 +18,7 @@ The 1–3 mile range contained the largest number of trips.
 
 
 
-\## Trip Duration
+## Trip Duration
 
 
 
@@ -34,7 +34,7 @@ The 6–15 minute range contained the largest number of trips.
 
 
 
-\## Time-Based Demand
+## Time-Based Demand
 
 
 
@@ -54,7 +54,7 @@ Weekday demand also varied. Saturday had the highest average daily trip volume a
 
 
 
-\## Payment Distribution
+## Payment Distribution
 
 
 
@@ -66,7 +66,7 @@ The analysis also compared average fare amount and average total amount across p
 
 
 
-\## Pickup and Drop-off Locations
+## Pickup and Drop-off Locations
 
 
 
@@ -78,13 +78,13 @@ Other high-activity pickup zones included:
 
 
 
-\- Upper East Side North
+- Upper East Side North
 
-\- JFK Airport
+- JFK Airport
 
-\- Midtown Center
+- Midtown Center
 
-\- Penn Station/Madison Sq West
+- Penn Station/Madison Sq West
 
 
 
@@ -92,7 +92,7 @@ The analysis also identified the most frequently used drop-off zones and pickup-
 
 
 
-\## Long-Duration Anomalies
+## Long-Duration Anomalies
 
 
 
@@ -108,7 +108,7 @@ These records were retained because unusual values are not automatically errors.
 
 
 
-\## Financial Observations
+## Financial Observations
 
 
 
@@ -124,7 +124,7 @@ The averages were higher than the medians, mainly because some higher-value trip
 
 
 
-\## Overall Observation
+## Overall Observation
 
 
 
@@ -132,19 +132,19 @@ The analysis identified clear patterns in:
 
 
 
-\- Trip distance
+- Trip distance
 
-\- Trip duration
+- Trip duration
 
-\- Time-of-day demand
+- Time-of-day demand
 
-\- Weekday demand
+- Weekday demand
 
-\- Payment distribution
+- Payment distribution
 
-\- Pickup and drop-off activity
+- Pickup and drop-off activity
 
-\- Unusual long-duration records
+- Unusual long-duration records
 
 
 
